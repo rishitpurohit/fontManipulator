@@ -1,0 +1,22 @@
+.heading{
+    background-color: orange;
+    box-shadow: 1px 1px 38px blue;
+}
+h1{
+color:white;
+}
+h2{
+    color: white;
+}
+
+canvas{
+    border-style:dashed;
+}
+
+.footer{
+bottom:0;
+    position: fixed;
+    box-shadow: 1px 1px 38px yellow;
+    background-color: brown;
+}
+
