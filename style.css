@@ -17,6 +17,10 @@ canvas{
 bottom:0;
     position: fixed;
     box-shadow: 1px 1px 38px yellow;
-    background-color: brown;
+    background-color:brown;
+    width:100%;
 }
-
+canvas{
+    background-color: white;
+    border: dashed;
+}
