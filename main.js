@@ -1,3 +1,7 @@
+var leftWrist=0;
+var rightWrist=0;
+var difference=0;
+
 function setup(){
     camera=createCapture();
 camera.position(80,180);
@@ -20,6 +24,16 @@ function gotPoses(results,error){
     else{
         if(results.length>0){
         console.log(results);
+leftWrist=results[0].pose.leftWrist.x;
+leftWrist=results[0].pose.leftWrist.y;
+difference=leftWrist-rightWrist;
         }
     }
+}
+
+function draw(){
+    background(0,255,0);
+    fill(0,0,255);
+    textSize(difference - 200);
+    text("Rishit",50,200);
 }
